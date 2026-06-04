@@ -1,54 +1,50 @@
 "use client";
 import { motion } from "framer-motion";
 import {
-    SiReact, SiNextdotjs, SiTypescript, SiJavascript,
-    SiHtml5, SiCss, SiFramer, SiTailwindcss, SiFigma,
-    SiRedux, SiGit, SiGithub, SiVercel, SiPostman, SiWebstorm,
-} from "react-icons/si";
+    SiFramer,SiFigma,
+   SiGit, SiGithub, SiVercel, SiPostman,
+    SiShopify, SiWebflow, SiWix, SiWoo, SiWordpress, SiStripe} from "react-icons/si";
 import {
-    MdAnimation, MdDevices, MdCode, MdStorage, MdSyncAlt, MdGridView,
+    MdCode, MdGridView, MdMailOutline
 } from "react-icons/md";
 
 const groups = [
     {
-        title: "Frontend",
+        title: "Shopify",
         items: [
-            { name: "React",         Icon: SiReact,      color: "#61DAFB" },
-            { name: "Next.js",       Icon: SiNextdotjs,  color: "currentColor" },
-            { name: "TypeScript",    Icon: SiTypescript, color: "#3178C6" },
-            { name: "JavaScript",    Icon: SiJavascript, color: "#F7DF1E" },
-            { name: "HTML5",         Icon: SiHtml5,      color: "#E34F26" },
-            { name: "CSS3",          Icon: SiCss,        color: "#1572B6" },
-            { name: "Framer Motion", Icon: SiFramer,     color: "#0055FF" },
+            { name: "Shopify",        Icon: SiShopify,     color: "#96BF48" },
+            { name: "Liquid",         Icon: SiShopify,     color: "#96BF48" },
+            { name: "Shopify Plus",   Icon: SiShopify,     color: "#5C6AC4" },
+            { name: "Replo",          Icon: MdGridView,    color: "#7C3AED" },
+            { name: "PageFly",        Icon: MdGridView,    color: "#FF6B35" },
         ],
     },
     {
-        title: "Styling & UI",
+        title: "No-Code Platforms",
         items: [
-            { name: "Tailwind CSS",      Icon: SiTailwindcss, color: "#06B6D4" },
-            { name: "CSS Animations",    Icon: MdAnimation,   color: "#A855F7" },
-            { name: "Responsive Design", Icon: MdDevices,     color: "#10B981" },
-            { name: "Shadcn UI",         Icon: MdGridView,    color: "currentColor" },
-            { name: "Figma",             Icon: SiFigma,       color: "#F24E1E" },
+            { name: "Webflow",        Icon: SiWebflow,     color: "#4353FF" },
+            { name: "Wix",            Icon: SiWix,         color: "#FAAD00" },
+            { name: "Framer",         Icon: SiFramer,      color: "#0055FF" },
+            { name: "Figma",          Icon: SiFigma,       color: "#F24E1E" },
         ],
     },
     {
-        title: "State & data",
+        title: "Ecommerce",
         items: [
-            { name: "Redux",       Icon: SiRedux,   color: "#764ABC" },
-            { name: "Zustand",     Icon: MdStorage, color: "#EF6C00" },
-            { name: "React Query", Icon: MdSyncAlt, color: "#FF4154" },
+            { name: "WooCommerce",    Icon: SiWoo,         color: "#7F54B3" },
+            { name: "WordPress",      Icon: SiWordpress,   color: "#21759B" },
+            { name: "Klaviyo",        Icon: MdMailOutline, color: "#00B140" },
+            { name: "Stripe",         Icon: SiStripe,      color: "#635BFF" },
         ],
     },
     {
         title: "Tools",
         items: [
-            { name: "Git",      Icon: SiGit,      color: "#F05032" },
-            { name: "GitHub",   Icon: SiGithub,   color: "currentColor" },
-            { name: "Vercel",   Icon: SiVercel,   color: "currentColor" },
-            { name: "Postman",  Icon: SiPostman,  color: "#FF6C37" },
-            { name: "VS Code",  Icon: MdCode,     color: "#007ACC" },
-            { name: "WebStorm", Icon: SiWebstorm, color: "#00CDD7" },
+            { name: "Git",            Icon: SiGit,         color: "#F05032" },
+            { name: "GitHub",         Icon: SiGithub,      color: "currentColor" },
+            { name: "Vercel",         Icon: SiVercel,      color: "currentColor" },
+            { name: "Postman",        Icon: SiPostman,     color: "#FF6C37" },
+            { name: "VS Code",        Icon: MdCode,        color: "#007ACC" },
         ],
     },
 ];

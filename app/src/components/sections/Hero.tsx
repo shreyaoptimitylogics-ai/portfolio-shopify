@@ -152,7 +152,7 @@ export default function Hero() {
                                 md:text-2xl
                             "
                         >
-                            Frontend Developer
+                            Shopify & No-Code Expert
                         </p>
 
                         {/* description */}
@@ -163,8 +163,8 @@ export default function Hero() {
                                 xs:text-base
                             "
                         >
-                            Frontend developer specializing in React and Next.js — I bridge the gap between
-                            design and code, building performant UIs and pixel-perfect experiences that scale.
+                            Shopify & No-Code specialist — I build high-converting stores on Shopify, Webflow,
+                            WooCommerce, Wix and Replo that drive real business results.
                         </p>
 
                         {/* CTA buttons */}

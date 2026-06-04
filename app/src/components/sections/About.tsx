@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import { Code2, Server, Layout, Plug } from "lucide-react";
 
 const cards = [
-    { Icon: Layout, title: "Frontend Expertise", desc: "Modern UI development with React, Next.js, and Tailwind — pixel-perfect, accessible, and performant." },
-    { Icon: Server, title: "Clean Code", desc: "TypeScript-first, component-driven development with a strong focus on reusability and Developer experience." },
-    { Icon: Code2, title: "Scalable Systems", desc: "Designing apps that handle real-world traffic with caching, optimization, and clean DX." },
-    { Icon: Plug, title: "API Integrations", desc: "Connecting third-party services, payment gateways, and AI providers seamlessly." },
+    { Icon: Layout, title: "Shopify Development", desc: "Custom Shopify stores with premium themes, app integrations, and conversion-focused UX that drives real sales." },
+    { Icon: Server, title: "Webflow & Wix", desc: "No-code websites built for speed and scale — pixel-perfect designs without touching a single line of code." },
+    { Icon: Code2, title: "WooCommerce", desc: "WordPress-based stores with WooCommerce — flexible, scalable, and tailored to your business needs." },
+    { Icon: Plug, title: "Replo & Integrations", desc: "High-converting Shopify landing pages with Replo, plus seamless third-party app and payment integrations." },
 ];
 
 export default function About() {
@@ -28,13 +28,13 @@ export default function About() {
                     </p>
 
                     <h2 className="mt-3 font-bold leading-tight text-3xl sm:text-4xl md:text-5xl">
-                        A developer who cares about craft.
+                        A specialist who cares about conversions.
                     </h2>
 
                     <p className="mt-4 sm:mt-5 leading-relaxed text-muted-foreground text-base sm:text-lg">
-                        Frontend developer. 4+ years. React & Next.js specialist.
-                        I care about the pixels, the performance, and everything in between —
-                        because good products live in the details.
+                        Shopify & No-Code expert. 4+ years. Webflow, WooCommerce & Replo specialist.
+                        I care about the store experience, the conversions, and everything in between —
+                        because great ecommerce lives in the details.
                     </p>
                 </motion.div>
 
