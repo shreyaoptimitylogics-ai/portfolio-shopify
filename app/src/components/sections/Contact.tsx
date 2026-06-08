@@ -56,8 +56,8 @@ const LINKEDIN = "https://linkedin.com/in/prajapati-shreya-183p";
 
 const contactMethods = [
     { Icon: Mail,     label: "Email",    value: "shreya.optimitylogics@gmail.com", href: EMAIL,    hint: "Send a message" },
-    { Icon: Github,   label: "GitHub",   value: "Shreya prajapati",                href: GITHUB,   hint: "View my work"  },
-    { Icon: Linkedin, label: "LinkedIn", value: "Shreya prajapati",                href: LINKEDIN, hint: "Let's connect" },
+    { Icon: Github,   label: "GitHub",   value: "Shreya prajapati", href: GITHUB,   hint: "View my work"  },
+    { Icon: Linkedin, label: "LinkedIn", value: "Shreya prajapati", href: LINKEDIN, hint: "Let's connect" },
 ];
 
 /* ── FLOATING LABEL INPUT ── */

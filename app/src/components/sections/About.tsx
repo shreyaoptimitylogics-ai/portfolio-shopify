@@ -1,13 +1,32 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code2, Server, Layout, Plug } from "lucide-react";
+import {ShoppingBag,
+    Globe,
+    Store,
+    Puzzle } from "lucide-react";
 
 const cards = [
-    { Icon: Layout, title: "Shopify Development", desc: "Custom Shopify stores with premium themes, app integrations, and conversion-focused UX that drives real sales." },
-    { Icon: Server, title: "Webflow & Wix", desc: "No-code websites built for speed and scale — pixel-perfect designs without touching a single line of code." },
-    { Icon: Code2, title: "WooCommerce", desc: "WordPress-based stores with WooCommerce — flexible, scalable, and tailored to your business needs." },
-    { Icon: Plug, title: "Replo & Integrations", desc: "High-converting Shopify landing pages with Replo, plus seamless third-party app and payment integrations." },
+    {
+        Icon: ShoppingBag,
+        title: "Shopify Development",
+        desc: "Custom Shopify stores with premium themes, app integrations, and conversion-focused UX that drives real sales.",
+    },
+    {
+        Icon: Globe,
+        title: "Webflow & Wix",
+        desc: "No-code websites built for speed and scale — pixel-perfect designs without touching a single line of code.",
+    },
+    {
+        Icon: Store,
+        title: "WooCommerce",
+        desc: "WordPress-based stores with WooCommerce — flexible, scalable, and tailored to your business needs.",
+    },
+    {
+        Icon: Puzzle,
+        title: "Replo & Integrations",
+        desc: "High-converting Shopify landing pages with Replo, plus seamless third-party app and payment integrations.",
+    },
 ];
 
 export default function About() {
