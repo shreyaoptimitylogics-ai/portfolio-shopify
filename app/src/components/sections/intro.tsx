@@ -102,10 +102,11 @@ export const IntroVideo = () => {
                         <div className="relative aspect-video bg-black overflow-hidden">
                             <video
                                 ref={videoRef}
-                                className="absolute inset-0 w-full h-full"
+                                className="absolute inset-0 w-full h-full object-cover"
                                 preload="auto"
                                 playsInline
                                 controls
+                                poster="/banner-intro.png"
                                 onLoadedData={() => setLoaded(true)}
                                 onCanPlay={() => setLoaded(true)}
                                 style={{ display: "block" }}
