@@ -76,9 +76,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "Shreya Prajapati | Senior Frontend Developer",
+    title: "Shreya Prajapati | Shopify Developer",
     description:
-        "Frontend Developer specializing in React.js, Next.js, Tailwind CSS, responsive UI, and scalable web applications.",
+        "Shopify Developer specializing in Shopify themes, Liquid, custom storefronts, responsive UI, and high-converting eCommerce experiences.",
     icons: {
         icon: [
             { url: "/logo.png", sizes: "any" },
