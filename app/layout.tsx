@@ -93,28 +93,28 @@ export const metadata: Metadata = {
     manifest: "/site.webmanifest",
     authors: [{ name: "Shreya Prajapati" }],
     keywords: [
-        "Frontend Developer",
-        "React.js",
-        "Next.js",
-        "Tailwind CSS",
-        "UI Developer",
-        "Web Developer",
+        "Shopify Developer",
+        "Shopify",
+        "Shopify Themes",
+        "Liquid",
+        "Shopify Store Development",
+        "eCommerce Developer",
         "Shreya Prajapati",
     ],
     openGraph: {
-        title: "Shreya Prajapati | Senior Frontend Developer",
+        title: "Shreya Prajapati | Shopify Developer",
         description:
-            "Frontend Developer specializing in React.js, Next.js, Tailwind CSS, responsive UI, and scalable web applications.",
-        url: "https://shreyaprajapati.dev", // 🔁 Replace with your actual domain
+            "Shopify Developer specializing in Shopify themes, Liquid, custom storefronts, responsive UI, and high-converting eCommerce experiences.",
+        url: "https://shreyaprajapati.dev",
         siteName: "Shreya Prajapati Portfolio",
         locale: "en_US",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
-        title: "Shreya Prajapati | Senior Frontend Developer",
+        title: "Shreya Prajapati | Shopify Developer",
         description:
-            "Frontend Developer specializing in React.js, Next.js, Tailwind CSS, responsive UI, and scalable web applications.",
+            "Shopify Developer specializing in Shopify themes, Liquid, custom storefronts, responsive UI, and high-converting eCommerce experiences.",
     },
 };
 
