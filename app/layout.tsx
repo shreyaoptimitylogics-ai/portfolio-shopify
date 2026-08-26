@@ -105,7 +105,7 @@ export const metadata: Metadata = {
         title: "Shreya Prajapati | Shopify Developer",
         description:
             "Shopify Developer specializing in Shopify themes, Liquid, custom storefronts, responsive UI, and high-converting eCommerce experiences.",
-        url: "https://shreyaprajapati.dev",
+        url: "https://portfolio-shopify.vercel.app",
         siteName: "Shreya Prajapati Portfolio",
         locale: "en_US",
         type: "website",
